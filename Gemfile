@@ -9,11 +9,11 @@ group :development do
   gem 'spring', '1.1.3'
 end
 
-group :development, :test do
-  gem 'rspec-rails', '3.0.2'
-end
-
 group :test do
   gem 'capybara', '2.4.1'
   gem 'factory_girl_rails', '4.4.1'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '3.0.2'
 end
